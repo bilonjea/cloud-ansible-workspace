@@ -1,0 +1,28 @@
+---
+# tasks file for common
+
+#- name: "[COMMON] - Update cache"
+#  apt: 
+#     update_cache: yes
+
+- name: "[COMMON] - Upgrade cache"
+  apt: 
+     upgrade: yes
+
+- name: "[COMMON] - Install commons tools"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_common_packages }}"
+
+- name: "[COMMON] - Install commons tools"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_divers_packages }}"
+
+- name: "[COMMON] - Install python modules"
+  pip: 
+     name: "{{ item }}"
+     state: latest
+  loop: "{{ pip_common_packages }}"

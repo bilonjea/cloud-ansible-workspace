@@ -1,4 +1,4 @@
-- name: "[LAMP] - apply common configuration to all nodes"
+- name: "[USER] - apply common configuration to all nodes"
   hosts: localhost
   connection: local
 

@@ -1,0 +1,114 @@
+sudo npm install -g generator-jhipster
+sudo apt install git
+sudo apt-get install git-flow
+ssh-keygen -o -t rsa
+cat /home/bilonjea/.ssh/id_rsa.pub
+
+sudo apt-get update
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+sudo apt install curl
+sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+docker-compose up
+docker start
+docker
+cd /etc/systemd/system/
+cd sockets.target.wants/
+cat docker.socket
+cd /lib/systemd/system/
+cat docker.socket
+sudo systemctl start docker
+sudo systemctl status docker
+
+docker-compose up
+sudo docker-compose up
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo apt install openjdk-8-jre-headless
+sudo update-alternatives --list
+sudo update-alternatives --config java
+update-java-alternatives --list
+update-alternatives --list
+
+docker run -it openjdk:8 bash  curl http://www.google.com exit
+sudo docker run -it openjdk:8 bash  curl http://www.google.com exit
+sudo nano /etc/docker/daemon.json
+sudo service docker restart
+sudo service docker status
+
+sudo docker-compose up
+
+sudo docker image pull jhipster/jhipster:5.8.2
+sudo docker image pull jhipster/jhipster:master
+
+git clone git clone https://github.com/jhipster/jhipster-docker-hub
+git clone https://github.com/jhipster/jhipster-docker-hub
+
+
+sudo apt update
+sudo apt install oracle-java8-installer
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt install openjdk-8
+openjdk-8
+openjdk-8-jdk
+sudo apt install openjdk-8-jdk
+update-alternatives --list java
+update-alternatives --list javac
+sudo apt install openjdk-11-jdk
+update-alternatives --list javac
+update-alternatives --list java
+java -version
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+
+sudo snap install --classic heroku
+jhipster heroku
+
+
+sudo npm install -g generator-jhipster
+pm i npm@latest -g
+sudo npm i npm@latest -g
+udo npm install -g generator-jhipster
+sudo npm i yo@latest -g
+
+heroku login
+jhipster heroku
+
+
+sudo apt update
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install exfat-fuse exfat-utils
+
+
+
+lsb_release -a
+sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu eoan main"
+sudo add-apt-repository --remove ppa:nemh/systemback
+sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu yakkety main"
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1024R/382003C2C8B7B4AB813E915B14E4942973C62A1B
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 382003C2C8B7B4AB813E915B14E4942973C62A1B
+sudo apt update
+sudo apt install systemback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

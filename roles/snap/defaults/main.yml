@@ -1,0 +1,10 @@
+---
+# defaults file for snap
+
+snap_devtools_packages:
+    - go
+    - sublime-text
+
+
+snap_classic_packages:
+    - heroku

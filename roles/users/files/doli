@@ -1,3 +1,0 @@
-# User rules for doli
-doli ALL=(ALL) NOPASSWD:ALL
-

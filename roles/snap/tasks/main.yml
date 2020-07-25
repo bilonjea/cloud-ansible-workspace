@@ -1,0 +1,16 @@
+---
+# tasks file for snap
+
+- name: "[APT] - Install dev tools packages"
+  snap: 
+     name: "{{ item }}"
+     channel: stable
+  loop: "{{ snap_devtools_packages }}"
+
+
+  - name: "[APT] - Install classic packages"
+  snap: 
+     name: "{{ item }}"
+     channel: stable 
+     classic: yes
+  loop: "{{ snap_classic_packages }}"

@@ -1,5 +1,6 @@
 ---
 # tasks file for common
 
-- include : packages.yml
-- include : configure.yml
+
+- include : appsdir.yml
+- include : workdir.yml

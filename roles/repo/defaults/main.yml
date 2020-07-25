@@ -1,0 +1,17 @@
+---
+# defaults file for repo
+
+apt_repos_packages:
+     #- add-apt-repository -y ppa:yannubuntu/boot-repair
+
+     #sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu eoan main"
+     #sudo add-apt-repository --remove ppa:nemh/systemback
+     #sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu yakkety main"
+     #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1024R/382003C2C8B7B4AB813E915B14E4942973C62A1B
+     #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 382003C2C8B7B4AB813E915B14E4942973C62A1B
+     #sudo apt update
+
+apt_packages:
+     - systemback
+     - boot-repair 
+     - boot-info

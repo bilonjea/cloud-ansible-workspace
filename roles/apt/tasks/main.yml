@@ -1,0 +1,52 @@
+---
+# tasks file for apt
+
+#- name: "[APT] - Update cache"
+#  apt: 
+#     update_cache: yes
+
+- name: "[APT] - Upgrade cache"
+  apt: 
+     upgrade: yes
+
+- name: "[APT] - Install common packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_common_packages }}"
+
+- name: "[APT] - Install java packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_java_packages }}"
+
+- name: "[APT] - Install java packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_java_packages }}"
+
+- name: "[APT] - Install languages packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_languages_packages }}"
+
+- name: "[APT] - Install js packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_js_packages }}"
+
+- name: "[APT] - Install editors packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_editors_packages }}"
+
+- name: "[APT] - Install dev tools packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_devtools_packages }}"

@@ -1,0 +1,10 @@
+---
+# tasks file for repo
+
+#TODO: - name: "[APT] - add packages repositories"
+
+- name: "[APT] - Install apt packages"
+  apt: 
+     name: "{{ item }}"
+     state: latest 
+  loop: "{{ apt_packages }}"

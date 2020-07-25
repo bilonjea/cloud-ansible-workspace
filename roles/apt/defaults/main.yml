@@ -1,0 +1,44 @@
+---
+# defaults file for apt
+
+apt_common_packages:
+    - net-tools
+    - vim
+    - tree
+    - htop
+    - wget
+    - ntp
+    - curl
+
+apt_systems_packages:
+    - terminator
+    - lsb
+    - clusterssh
+    - exfat-fuse
+    - exfat-utils
+    - timeshift
+
+apt_java_packages:
+    #- oracle-java8-installer
+    - openjdk-8-jre-headless
+    - openjdk-8-jdk
+    - openjdk-11-jdk
+
+apt_languages_packages:
+    - python3-pip
+
+
+apt_js_packages:
+    - nodejs
+    #- npm
+    - cmdtest
+    - yarn
+
+apt_editors_packages:
+    - gimp
+
+apt_devtools_packages:
+    - maven
+    - docker.io
+    - git
+    - git-flow

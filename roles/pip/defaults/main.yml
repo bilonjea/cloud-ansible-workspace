@@ -1,0 +1,5 @@
+---
+# defaults file for pip
+
+pip_modules_packages:
+    - docker

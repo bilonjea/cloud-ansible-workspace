@@ -1,6 +1,0 @@
-- name: "[WORKSPACE] - apply common configuration to all nodes"
-  hosts: localhost
-  connection: local
-
-  roles:
-    - users

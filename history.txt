@@ -1,0 +1,963 @@
+    1  ll
+    2  ./app/Postman
+    3  ll
+    4  pwd
+    5  cd /var/
+    6  ll
+    7  cd long
+    8  cd log/
+    9  ll
+   10  cd /opt/
+   11  ll
+   12  cd
+   13  pwd
+   14  ll
+   15  mkdir DEV
+   16  cd DEV/
+   17  ll
+   18  mkdir Tools
+   19  mkdir Workspaces
+   20  cd Workspaces/
+   21  ll
+   22  git
+   23  sudo apt install git
+   24  git
+   25  git flow
+   26  apt-get install git-flow 
+   27  sudo apt-get install git-flow 
+   28  git flow
+   29  ll
+   30  mkdir workspaces-clients
+   31  ll
+   32  touch init.txt
+   33  gedit init.txt 
+   34  ll
+   35  cd workspaces-clients/
+   36  ll
+   37  ssh-keygen -o -t rsa
+   38  cat /home/bilonjea/.ssh/id_rsa.pub
+   39  ll
+   40  $git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo-java.git
+   41  git
+   42  git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo-java.git
+   43  ll
+   44  cd helpimmo-java/
+   45  ll
+   46  git flow init
+   47  ll
+   48  git branch
+   49  git push
+   50  git push --set-upstream origin develop
+   51  cd 
+   52  sudo apt-get update
+   53  sudo apt-get remove docker docker-engine docker.io
+   54  sudo apt install docker.io
+   55  sudo systemctl start docker
+   56  sudo systemctl enable docker
+   57  docker --version
+   58  sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+   59  curl
+   60  sudo apt install curl
+   61  sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+   62  sudo chmod +x /usr/local/bin/docker-compose
+   63  docker-compose --version
+   64  ll
+   65  cd DEV/Workspaces/workspaces-clients/
+   66  ll
+   67  cd helpimmo-java/
+   68  ll
+   69  nano docker-compose.yml
+   70  ll
+   71  cd ..
+   72  lll
+   73  ll
+   74  mkdir myapp
+   75  cd myapp/
+   76  ll
+   77  nano docker-compose.yml
+   78  ll
+   79  cat docker-compose.yml 
+   80  docker --version
+   81  llm
+   82  ll
+   83  nano docker-compose.yml
+   84  cat docker-compose.yml
+   85  docker-compose up
+   86  docker start
+   87  docker
+   88  cd /etc/systemd/system/
+   89  ll
+   90  cd sockets.target.wants/
+   91  ll
+   92  cat docker.socket
+   93  cd /lib/systemd/system/
+   94  ll
+   95  cat docker.socket 
+   96  sudo systemctl start docker
+   97  sudo systemctl status docker
+   98  ll
+   99  cd
+  100  ll
+  101  cd DEV/Workspaces/workspaces-clients/
+  102  ll
+  103  cd myapp/
+  104  ll
+  105  docker-compose up
+  106  sudo docker-compose up
+  107  sudo groupadd docker
+  108  sudo usermod -aG docker $USER
+  109  exit
+  110  ll
+  111  git status
+  112  git add .
+  113  git commit - m 'add init file'
+  114  git commit -m 'add init file'
+  115  git push
+  116  git branch
+  117  git status
+  118  git push
+  119  git status
+  120  git pull
+  121  ll
+  122  cd ..
+  123  ll
+  124  rm  - r helpimmo-java
+  125  rm  -r helpimmo-java
+  126  sudo rm  -r helpimmo-java
+  127  ll
+  128  git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo-java.git
+  129  ll
+  130  cd helpimmo-java/
+  131  ll
+  132  git branch
+  133  git checkout develop
+  134  git branch
+  135  git flow init
+  136  git flow feature start mybranch
+  137  git branch
+  138  ll
+  139  touch install.readme
+  140  gedit install.readme 
+  141  cat install.readme 
+  142  ll
+  143  git branch
+  144  git flow feature finish mybranch
+  145  git branch
+  146  git push 
+  147  git status
+  148  ll
+  149  git add .
+  150  git status
+  151  git commit -m 'new files'
+  152  git config --global user.email "j.bilong@gmail.com"
+  153  git config --global user.name "Jean Bilong Mboumba"
+  154  git status
+  155  git commit -m 'new files'
+  156  git push 
+  157  ll
+  158  cat install.readme
+  159  ssh-keygen -o -t rsa
+  160  cat /home/bilonjea/.ssh/id_rsa.pub
+  161  ll
+  162  git push
+  163  exit
+  164  cd /var/lib/mysql
+  165  cd /var/lib/
+  166  ll
+  167  cd ..
+  168  ll
+  169  java -version
+  170  sudo apt install openjdk-8-jre-headless
+  171  sudo update-alternatives --list
+  172  update-alternatives --list
+  173  update-java-alternatives --list
+  174  sudo update-alternatives --config java
+  175  java -version
+  176  docker run -it openjdk:8 bash  curl http://www.google.com exit
+  177  sudo docker run -it openjdk:8 bash  curl http://www.google.com exit
+  178  sudo nano /etc/docker/daemon.json
+  179  sudo service docker restart
+  180  sudo service docker status
+  181  cd 
+  182  cd DEV/
+  183  ll
+  184  cd Workspaces/workspaces-clients/
+  185  ll
+  186  cd myapp/
+  187  ll
+  188  docker-compose up
+  189  sudo docker-compose up
+  190  ll
+  191  sh start.sh 
+  192  sudo sh start.sh 
+  193  sh enter-app.sh 
+  194  sudo sh enter-app.sh 
+  195  ll
+  196  sh stop.sh 
+  197  sudo sh stop.sh 
+  198  ll
+  199  gedit docker-compose.yml 
+  200  pwd
+  201  git branch
+  202  git flow feature mydocker
+  203  git flow feature start mydocker
+  204  ll
+  205  git branch
+  206  ll
+  207  mkdir docker
+  208  ll
+  209  pwd
+  210  cd docker/
+  211  ll
+  212  mkdir bdd
+  213  mkdir app
+  214  ll
+  215  cd app/
+  216  ll
+  217  rm docker-compose.yml.oracle
+  218  cd ..
+  219  ll
+  220  cd bdd/
+  221  ll
+  222  rm docker-compose.yml
+  223  ll
+  224  rm docker-compose.yml.oracle  docker-compose.yml
+  225  ll
+  226  cd ..
+  227  ll
+  228  git branch
+  229  git status
+  230  git add .
+  231  git commit -m 'docker files'
+  232  git status
+  233  git flow feature finish mydocker
+  234  git branch
+  235  git status
+  236  git push
+  237  cd
+  238  ll
+  239  pwd
+  240  cd ..
+  241  ll
+  242  sudo mkdir DEV
+  243  ll
+  244  chown -R bilonjea:bilonjea DEV
+  245  sudo chown -R bilonjea:bilonjea DEV
+  246  ll
+  247  cd DEV/
+  248  mkdir Workspaces
+  249  cd Workspaces
+  250  ll
+  251  mkdir Workspaces-clients
+  252  ll
+  253  cd Workspaces-clients/
+  254  LL
+  255  ll
+  256  cd helpimmo-java/
+  257  ll
+  258  cd ..
+  259  ll
+  260  cd myapp/
+  261  ll
+  262  pwd
+  263  x-special/nautilus-clipboard
+  264  cut
+  265  file:///home/bilonjea/DEV/Tools
+  266  ll
+  267  pwd
+  268  rm -r wp_data
+  269  rm -rH wp_data
+  270  rm -RH wp_data
+  271  sudo rm -r wp_data
+  272  ll
+  273  pwd
+  274  gedit docker-compose.yml 
+  275  ll
+  276  sh start.sh 
+  277  sudo sh start.sh 
+  278  ll
+  279  sh enter-app.sh 
+  280  sudo sh enter-app.sh 
+  281  ll
+  282  sh stop.sh 
+  283  sudo sh stop.sh 
+  284  exit
+  285  ll
+  286  cd docker/
+  287  ll
+  288  cd app/
+  289  ll
+  290  cat docker-compose.yml 
+  291  sudo sh start.sh 
+  292  ll
+  293  subl docker-compose.yml 
+  294  sudo sh start.sh 
+  295  subl docker-compose.yml 
+  296  sudo sh start.sh 
+  297  subl docker-compose.yml 
+  298  sudo sh start.sh 
+  299  subl docker-compose.yml 
+  300  cd ..
+  301  mkdir jhipster
+  302  cd jhipster/
+  303  docker image pull jhipster/jhipster
+  304  sudo docker image pull jhipster/jhipster
+  305  ll
+  306  ll
+  307  cat docker-compose.yml
+  308  gedit enter-app.sh
+  309  gedit enter-database.sh
+  310  ll
+  311  sudo sh start.sh 
+  312  gedit docker-compose.yml 
+  313  sudo sh start.sh 
+  314  sh stop.sh 
+  315  sudo sh stop.sh 
+  316  pwd
+  317  ll
+  318  cat docker-compose.yml 
+  319  ll
+  320  sh start.sh 
+  321  sudo sh start.sh 
+  322  subl
+  323  sudo snap install sublime-text
+  324  vi docker-compose.yml 
+  325  subl docker-compose.yml 
+  326  sudo sh start.sh 
+  327  subl docker-compose.yml 
+  328  cd ..
+  329  cd dbb
+  330  ll
+  331  cd bdd/
+  332  ll
+  333  subl docker-compose.yml 
+  334  cd ..
+  335  ll
+  336  cd ..
+  337  ll
+  338  git branch
+  339  git status
+  340  git add .
+  341  git commit -m 'min changes'
+  342  git status
+  343  git flow feature finish myjhipster
+  344  git status
+  345  git push
+  346  ll
+  347  cd docker/
+  348  cd ..
+  349  git flow feature start myhimmo
+  350  git branch
+  351  ll
+  352  cd docker/app/
+  353  ll
+  354  sh start.sh 
+  355  sudo sh start.sh 
+  356  ll
+  357  docker image pull jhipster/jhipster:5.8.2
+  358  sudo docker image pull jhipster/jhipster:5.8.2
+  359  sudo docker image pull jhipster/jhipster:master
+  360  cd ..
+  361  ll
+  362  git clone git clone https://github.com/jhipster/jhipster-docker-hub
+  363  git clone https://github.com/jhipster/jhipster-docker-hub
+  364  cd jhipster-docker-hub/
+  365  ll
+  366  cd jhipster-sample-app
+  367  ll
+  368  cat dev.yml
+  369  cat jhipster-console.yml 
+  370  cat prod.yml 
+  371  ll
+  372  cat prod-elk.yml 
+  373  ll
+  374  cd log-conf/
+  375  ll
+  376  cat logstash.conf 
+  377  cd ..
+  378  ll
+  379  cd ..
+  380  ll
+  381  cd jhipster/
+  382  ll
+  383  cat docker-compose.yml 
+  384  cd ..
+  385  ll
+  386  cd jdl-studio/
+  387  ll
+  388  cat docker-compose.yml 
+  389  cd ..
+  390  ll
+  391  cd jhipster-sample-app-cassandra/
+  392  ll
+  393  cat prod.yml 
+  394  cd ..
+  395  cd.
+  396  cd ..
+  397  ll
+  398  cd ..
+  399  pwd
+  400  cd ..
+  401  mkdir docker-compose
+  402  ll
+  403  cd docker-compose/
+  404  ll
+  405  jhipster docker-compose
+  406  jhipster
+  407  ll
+  408  touch doc.txt
+  409  gedit doc.txt 
+  410  ll
+  411  cd docker/
+  412  cd app/
+  413  ll
+  414  subl docker-compose.yml 
+  415  ll
+  416  sudo sh start.sh 
+  417  subl docker-compose.yml 
+  418  sudo sh start.sh 
+  419  sh enter-app.sh 
+  420  sudo sh enter-app.sh 
+  421  gedit enter-app.sh 
+  422  sh enter-app.sh 
+  423  sudo sh enter-app.sh 
+  424  ll
+  425  subl
+  426  ll
+  427  sudo sh stop.sh 
+  428  cd /home/
+  429  ll
+  430  cd DEV/
+  431  ll
+  432  cd Workspaces/Workspaces-clients/
+  433  ll
+  434  cd helpimmo-java/
+  435  ll
+  436  git branch
+  437  cd ..
+  438  ll
+  439  sudo rm -r helpimmo-java/
+  440  ll
+  441  git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo-java.git
+  442  git checkout develop
+  443  git branch
+  444  ll
+  445  cd helpimmo-java/
+  446  ll
+  447  git checkout develop
+  448  git branch
+  449  git flow init
+  450  git flow feature start myjhipster
+  451  git branch
+  452  ll
+  453  cd docker/
+  454  ll
+  455  cd app
+  456  ll
+  457  gedit docker-compose.yml 
+  458  ll
+  459  cd ..
+  460  ll
+  461  cd docker/
+  462  ll
+  463  cd app/
+  464  ll
+  465  subl docker-compose.yml 
+  466  ll
+  467  pwd
+  468  sudo sh start.sh 
+  469  subl docker-compose.yml 
+  470  sudo sh start.sh 
+  471  sudo sh enter-app.sh 
+  472  ll
+  473  sh stop.sh 
+  474  sudo sh stop.sh 
+  475  ll
+  476  cd ..
+  477  ll
+  478  git status
+  479  git branch
+  480  git add .
+  481  ll
+  482  git commit -m 'fix dockercompose'
+  483  subl install.readme &
+  484  node
+  485  sudo apt install nodejs
+  486  npm
+  487  sudo apt install npm
+  488  ll
+  489  yarn
+  490  sudo apt install cmdtest
+  491  yarn
+  492  yarn --version
+  493  npm --version
+  494  yarn install
+  495  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  496  npm install
+  497  ll
+  498  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  499  sudo apt update
+  500  sudo apt install yarn
+  501  yarn --version
+  502  yarn install
+  503  ll
+  504  rm yarn.lock
+  505  rm package-lock.json
+  506  ll
+  507  git status
+  508  sudo rm -r node_modules
+  509  ll
+  510  mvn
+  511  sudo apt install maven
+  512  ll
+  513  idea
+  514  ll
+  515  git status
+  516  git add .
+  517  ll
+  518  git commit -m 'min changes
+  519  git commit -m 'min changes'
+  520  git status
+  521  git flow feature finish myhimmo
+  522  ll
+  523  git branch
+  524  git status
+  525  git push
+  526  python
+  527  python --version
+  528  go
+  529  sudo snap install go
+  530  cd 
+  531  ll
+  532  sudo chown -R bilonjea:bilonjea helpimmo-java
+  533  cd helpimmo-java/
+  534  ll
+  535  cd helpimmo-java/
+  536  ll
+  537  git branck
+  538  git branch
+  539  git status
+  540  ll
+  541  npm install -g yo@latest
+  542  npm version
+  543  npm --version
+  544  yo --version
+  545  npm install -g check-updates
+  546  npm --version
+  547  npm version
+  548  ll
+  549  npm version
+  550  git status
+  551  git add .
+  552  git commit -m 'adding jhiphster 6.6.0'
+  553  ll
+  554  cat .gitignore
+  555  ll
+  556  git status
+  557  sudo chown -R bilonjea:bilonjea .
+  558  git status
+  559  git push
+  560  heroku login
+  561  jhipster heroku
+  562  ./jhipster heroku
+  563  ll
+  564  history
+  565  ./mvnw package -Pprod -DskipTests
+  566  mvn clean install
+  567  java --version
+  568  java -version
+  569  ./mvnw package -Pprod -DskipTests
+  570  ll
+  571  sudo update-alternatives --list java
+  572  sudo update-alternatives --list javac
+  573  cd /usr/lib/jvm/java-8-openjdk-amd64
+  574  ll
+  575  cd bin
+  576  ll
+  577  c..
+  578  ll
+  579  cd ..
+  580  ll
+  581  cd ..
+  582  ll
+  583  cd ..
+  584  ll
+  585  exit
+  586  cd ..
+  587  ll
+  588  cd docker-compose/
+  589  ll
+  590  cd docker/
+  591  ll
+  592  cd app
+  593  ll
+  594  sh start.sh 
+  595  sh enter-app.sh 
+  596  sh stop.sh 
+  597  ll
+  598  gedit docker-compose.yml
+  599  sh start.sh 
+  600  ll
+  601  $ll
+  602  sh enter-app.sh 
+  603  sh stop.sh 
+  604  sh start.sh 
+  605  sh enter-app.sh 
+  606  sh stop.sh 
+  607  ll
+  608  sh stop.sh 
+  609  sh start.sh 
+  610  sh enter-app.sh 
+  611  sh stop.sh 
+  612  gHW48k7v
+  613  sudo add-apt-repository ppa:webupd8team/java
+  614  cd
+  615  sudo apt update
+  616  sudo apt install oracle-java8-installer
+  617  sudo add-apt-repository ppa:openjdk-r/ppa
+  618  sudo apt-get update
+  619  sudo apt install openjdk-8
+  620  openjdk-8
+  621  openjdk-8-jdk
+  622  sudo apt install openjdk-8-jdk
+  623  update-alternatives --list java
+  624  update-alternatives --list javac
+  625  sudo apt install openjdk-11-jdk
+  626  update-alternatives --list javac
+  627  update-alternatives --list java
+  628  java -version
+  629  sudo update-alternatives --config java
+  630  sudo update-alternatives --config javac
+  631  java -version
+  632  ll
+  633  cd
+  634  sudo snap install --classic heroku
+  635  ll
+  636  cat id_rsa.pub
+  637  mvn clean package -Pprod -DskipTests
+  638  java -version
+  639  heroku login
+  640  ll
+  641  heroku deploy:jar target/*.jar
+  642  ll
+  643  ll target/
+  644  heroku deploy:jar target/helpimmo-0.0.1-SNAPSHOT.jar
+  645  ll
+  646  ll target/
+  647  heroku deploy:jar target/helpimmo-0.0.1-SNAPSHOT.jar
+  648  heroku help
+  649  jhipster heroku
+  650  ll
+  651  git status
+  652  git add .
+  653  git commit -m 'min changes'
+  654  git push
+  655  git branch
+  656  heroku login
+  657  git init
+  658  heroku git:remote -a helpimmo
+  659  git add .
+  660  git commit -am "make it better"
+  661  git push heroku master
+  662  git branch
+  663  git push heroku master
+  664  git checkout master
+  665  git branch
+  666  git init
+  667  heroku git:remote -a helpimmo
+  668  git add .
+  669  git status
+  670  heroku login
+  671  git add .
+  672  git commit -am "make it better"
+  673  jhispter
+  674  jhipster heroku
+  675  ll
+  676  jhipster
+  677  npm install -g generator-jhipster
+  678  sudo npm install -g generator-jhipster
+  679  npm i npm@latest -g
+  680  sudo npm i npm@latest -g
+  681  sudo npm install -g generator-jhipster
+  682  sudo npm i yo@latest -g
+  683  jhipster
+  684  jhipster heroku
+  685  ll
+  686  cd ..
+  687  ll
+  688  sudo rm -r helpimmo-java/
+  689  git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo-java.git
+  690  ll
+  691  cd helpimmo-java/
+  692  ll
+  693  git checkout develop
+  694  git branch
+  695  git flow init
+  696  git checkout master
+  697  git branch
+  698  ./mvnw package -Pprod -DskipTests
+  699  ll
+  700  heroku login
+  701  jhipster heroku
+  702  heroku login
+  703  jhipster heroku
+  704  ll
+  705  cat pom.xlm
+  706  cat pom.xml
+  707  ll
+  708  jhipster heroku
+  709  gedit pom.xml
+  710  ./mvnw package -Pprod -DskipTests
+  711  heroku login
+  712  jhipster heroku
+  713  ll
+  714  jhipster 
+  715  ./mvnw package -Pprod -DskipTests
+  716  heroku login
+  717  jhipster heroku
+  718  cd ..
+  719  ll
+  720  git branch
+  721  mvn spring-boot:run
+  722  cd ..
+  723  ll
+  724  cd helpimmo/
+  725  ll
+  726  subl pom.xml
+  727  chrome
+  728  heroku login
+  729  jhister heroku
+  730  ll
+  731  history
+  732  heroku login
+  733  jhipster heroku
+  734  ll
+  735  subl
+  736  idea pom.xml
+  737  intellij pom.xml
+  738  idea .
+  739  subl pom.xml
+  740  heroku login
+  741  jhipster heroku
+  742  git pull
+  743  ll
+  744  git status
+  745  cd ..
+  746  ll
+  747  sudo rm -rf helpimmo-java
+  748  ll
+  749  git clone git@gitlab.com:emetconsulting/clients/helpimmo/helpimmo.git
+  750  ll
+  751  cd helpimmo/
+  752  ll
+  753  mvn clean install
+  754  mvn spring-boot:run
+  755  heroku login
+  756  jhipster heroku
+  757  clear
+  758  jhipster heroku
+  759  ./mvnw package -Pprod -DskipTests
+  760  heroku login
+  761  jhipster heroku
+  762  git status
+  763  git checkout pom.xml
+  764  git status
+  765  heroku login
+  766  jhipster heroku
+  767  git branch
+  768  ll
+  769  git init
+  770  heroku git:remote -a helpimmo
+  771  git add .
+  772  git commit -am "make it better"
+  773  git push heroku master
+  774  sudo apt update
+  775  sudo add-apt-repository universe
+  776  sudo apt update
+  777  sudo apt install exfat-fuse exfat-utils
+  778  ll
+  779  cd ..
+  780  ll
+  781  cd ..
+  782  ll
+  783  cd Workspaces/
+  784  ll
+  785  cd Workspaces-clients/
+  786  ll
+  787  cd docker-compose/
+  788  ll
+  789  cd docker/
+  790  ll
+  791  cd bdd/
+  792  ll
+  793  sh stop.sh 
+  794  ll
+  795  cd app/
+  796  ll
+  797  sh stop.sh 
+  798  docker ps
+  799  cd ..
+  800  ll
+  801  cd bdd/
+  802  ll
+  803  sh start.sh 
+  804  sudo add-apt-repository ppa:nemh/systemback
+  805  sudo add-apt-repository --remove ppa:nemh/systemback
+  806  sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu xenial main"
+  807  sudo add-apt-repository --remove ppa:nemh/systemback
+  808  lsb_release -a
+  809  sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu eoan main"
+  810  sudo add-apt-repository --remove ppa:nemh/systemback
+  811  sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu yakkety main"
+  812  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1024R/382003C2C8B7B4AB813E915B14E4942973C62A1B
+  813  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 382003C2C8B7B4AB813E915B14E4942973C62A1B
+  814  sudo apt update
+  815  sudo apt install systemback
+  816  exit
+  817  docker ps
+  818  docker stop 51d4545f1410
+  819  docker ps
+  820  exit
+  821  touch install.txt
+  822  subl install.txt 
+  823  ll
+  824  mv DEV bilonjea/
+  825  sudo mv DEV bilonjea/
+  826  ll
+  827  cd bilonjea/
+  828  ll
+  829  cd DEV/
+  830  ls
+  831  ll
+  832  cd Workspaces/
+  833  ll
+  834  lcd Workspaces-clients/
+  835  ll
+  836  cd Workspaces-clients/
+  837  ll
+  838  chown -R bilonjea:bilonjea myapp
+  839  sudo chown -R bilonjea:bilonjea myapp
+  840  ll
+  841  cd ..
+  842  ll
+  843  cd ..
+  844  ll
+  845  cd ..
+  846  ll
+  847  chown -R bilonjea:bilonjea DEV
+  848  sudo chown -R bilonjea:bilonjea DEV
+  849  ll
+  850  cd DEV/
+  851  ll
+  852  cd Workspaces/
+  853  ll
+  854  cd Workspaces-clients/$
+  855  cd Workspaces-clients/
+  856  ll
+  857  mkdir docker
+  858  ll
+  859  cd docker/
+  860  ll
+  861  cd myapp/
+  862  ll
+  863  subl docker-compose.yml 
+  864  ll
+  865  cat docker-compose.yml
+  866  ll
+  867  cat enter-app.sh
+  868  cat enter-database.sh
+  869  cat start.sh
+  870  cd stop.sh
+  871  cat stop.sh
+  872  ll
+  873  clear
+  874  ll
+  875  cd ..
+  876  ll
+  877  cd helpimmo/
+  878  ll
+  879  cd app
+  880  ll
+  881  subl docker-compose.yml 
+  882  cd ..
+  883  ll
+  884  cd bdd/
+  885  ll
+  886  subl docker-compose.yml 
+  887  sh start.sh 
+  888  sh stop.sh 
+  889  cd ..
+  890  ll
+  891  cd app/
+  892  ll
+  893  jhispter version
+  894  history
+  895  sudo npm install -g generator-jhipster
+  896  jhispter
+  897  cd ..
+  898  ll
+  899  mkdir myapp
+  900  cd myapp/
+  901  pwd 
+  902  cd ..
+  903  ll
+  904  cd helpimmo/
+  905  ll
+  906  pwd
+  907  cd /var/www/html
+  908  pwd
+  909  cd ..
+  910  ll
+  911  cp -R DEV /home
+  912  sudo cp -R DEV /home
+  913  sudo cp DEV /home
+  914  sudo cp -r DEV /home
+  915  pwd
+  916  ll
+  917  sh start.sh
+  918  sh stop.sh 
+  919  eixt
+  920  exit
+  921  sudo apt-add-repository -y ppa:teejee2008/ppa
+  922  sudo apt-get update
+  923  lsb_release -a
+  924  sudo apt-get install timeshift
+  925  intelliJ
+  926  idea .
+  927  intellij-idea-community
+  928  alias intellij-idea-community=idea
+  929  idea
+  930  alias idea=intellij-idea-community
+  931  idea
+  932  intellij-idea-community
+  933  alias idea='intellij-idea-community'
+  934  idea
+  935  ll 
+  936  cat .bashrc
+  937  sudo subl .bashrc
+  938  idea
+  939  exit
+  940  idea
+  941  ll
+  942  cd helpimmo/
+  943  ll
+  944  idea pom.xml
+  945  lsb_release -a
+  946  sudo add-apt-repository -y ppa:yannubuntu/boot-repair && sudo apt update && sudo apt install -y boot-repair boot-info
+  947  sudo su 
+  948  sudo add-apt-repository -y ppa:yannubuntu/boot-repair && sudo apt update && sudo apt install -y boot-repair boot-info
+  949  docker ps
+  950  history
+  951  history 10
+  952  history | grep docker
+  953  history | grep install
+  954  history | grep sudo
+  955  ll
+  956  history | grep sudo
+  957  ll
+  958  history
+  959  history | grep apt
+  960  history | grep instll
+  961  history | grep install
+  962  ll
+  963  history > history.txt

@@ -1,0 +1,8 @@
+---
+# tasks file for pip
+
+- name: "[PIP] - Install python modules packages"
+  pip: 
+     name: "{{ item }}"
+     state: latest
+  loop: "{{ pip_modules_packages }}"

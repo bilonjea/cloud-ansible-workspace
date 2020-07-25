@@ -1,0 +1,7 @@
+---
+# defaults file for npm
+
+npm_modules_packages: 
+    - generator-jhipster
+    - check-updates
+    - yo

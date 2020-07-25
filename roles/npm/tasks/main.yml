@@ -1,0 +1,9 @@
+---
+# tasks file for npm
+
+- name: "[PIP] - Install npm modules packages"
+  npm: 
+     name: "{{ item }}"
+     state: latest
+     global: yes
+  loop: "{{ npm_modules_packages }}"

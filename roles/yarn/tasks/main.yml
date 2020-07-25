@@ -1,0 +1,9 @@
+---
+# tasks file for yarn
+
+#- name: "[YARN] - Install yarn modules packages"
+  #yarn:
+     #name: "{{ item }}"
+     #state: latest
+     #global: yes
+  #loop: "{{ yarn_modules_packages }}"

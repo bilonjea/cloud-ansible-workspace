@@ -1,0 +1,4 @@
+---
+# defaults file for tar
+
+eclipse: "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-06/R/eclipse-jee-2020-06-R-linux-gtk-x86_64.tar.gz"

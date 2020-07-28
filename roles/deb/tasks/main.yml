@@ -1,0 +1,6 @@
+---
+# tasks file for deb
+
+- name: "[DEB] - Install teamviewer package from the internet"
+  apt:
+    deb: "{{ teamviewer }}"

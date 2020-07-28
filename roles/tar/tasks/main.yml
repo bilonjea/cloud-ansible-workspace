@@ -1,0 +1,15 @@
+---
+# tasks file for tar
+
+- name: "[TAR] - check if eclipse exist"
+  stat:
+    path: /home/bilonjea/DEV/Tools/eclipse/eclipse-jee-2020-06-R-linux-gtk-x86_64
+  register: check_eclipse
+
+
+- name: "[TAR] - eclipse"
+  unarchive:
+    src: "{{ eclipse }}"
+    dest: /home/bilonjea/DEV/Tools/eclipse/
+    remote_src: yes
+  when: check_eclipse.stat.exists == false

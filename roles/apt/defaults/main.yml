@@ -30,7 +30,7 @@ apt_languages_packages:
 
 apt_js_packages:
     - nodejs
-    #- npm
+    - npm
     - cmdtest
     - yarn
 

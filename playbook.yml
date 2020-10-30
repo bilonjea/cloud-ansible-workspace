@@ -5,9 +5,9 @@
   roles:
     - common
     - apt
-    - repo
+   #- repo
     - npm
     - pip
     - yarn
     #- tar
-    - deb
+    #- deb

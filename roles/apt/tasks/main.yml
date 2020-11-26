@@ -1,9 +1,9 @@
 ---
 # tasks file for apt
 
-#- name: "[APT] - Update cache"
-#  apt: 
-#     update_cache: yes
+- name: "[APT] - Update cache"
+  apt: 
+     update_cache: yes
 
 - name: "[APT] - Upgrade cache"
   apt: 

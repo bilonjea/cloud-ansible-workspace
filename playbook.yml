@@ -1,12 +1,11 @@
 - name: "[WORKSPACE] - apply common configuration to all nodes"
-  hosts: localhost
-  connection: local
+  hosts: all
 
   roles:
     - common
     - apt
    #- repo
-    - npm
+   # - npm
     - pip
     - yarn
     #- tar

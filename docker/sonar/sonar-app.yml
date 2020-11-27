@@ -37,9 +37,10 @@ networks:
     driver: bridge
 
 volumes:
-  sonarqube_data:
-  sonarqube_extensions:
-  sonarqube_logs:
-  sonarqube_temp:
+  sonarqube_data: ~/volumes/sonarqube/sonar/data
+  sonarqube_extensions: ~/volumes/sonarqube/sonar/extensions
+  sonarqube_logs: ~/volumes/sonarqube/sonar/logs
+  sonarqube_temp: ~/volumes/sonarqube/sonar/temp
   postgresql:
-  postgresql_data:
+    driver: local
+  postgresql_data: ~/volumes/sonarqube/postgresql/data

@@ -9,5 +9,5 @@
     - npm
     - pip
     - yarn
-    #- tar
-    - deb
+    - tar
+    #- deb

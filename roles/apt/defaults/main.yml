@@ -9,6 +9,7 @@ apt_common_packages:
     - wget
     - ntp
     - curl
+    - hashalot
 
 apt_systems_packages:
     - terminator
@@ -20,9 +21,11 @@ apt_systems_packages:
 
 apt_java_packages:
     #- oracle-java8-installer
+    - java-package
     - openjdk-8-jre-headless
     - openjdk-8-jdk
     - openjdk-11-jdk
+    - openjdk-14-jdk
 
 apt_languages_packages:
     - python3-pip
@@ -33,6 +36,7 @@ apt_js_packages:
     #- npm
     - cmdtest
     - yarn
+    - maven
 
 apt_editors_packages:
     - gimp

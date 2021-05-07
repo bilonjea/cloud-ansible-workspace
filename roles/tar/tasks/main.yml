@@ -3,13 +3,28 @@
 
 - name: "[TAR] - check if eclipse exist"
   stat:
-    path: /home/bilonjea/DEV/Tools/eclipse/eclipse-jee-2020-06-R-linux-gtk-x86_64
+    path: /home/bilonjea/DEV/Tools/eclipse
   register: check_eclipse
+
+
+#- name: "[TAR] - Download archive to tmp with check (sha512)"
+  #get_url:
+    #url: "{{ eclipse }}"
+    #dest: /tmp
+    #checksum: sha512:b857f159403519a2d24f218f314b2977bfd102b17ad7405e66bf0bc798d5ba9f07ac001f96e1b3739f51f46ac8609dd307b3976cb925df3d30c83ec0cb45981f
+  #when: check_eclipse.stat.exists == false
+  
+#- name: "[TAR] -  unarchive file that is already on the remote machine"
+  #unarchive:
+    #src: /tmp/eclipse-jee-2020-06-R-linux-gtk-x86_64.tar.gz
+    #dest: /home/bilonjea/DEV/Tools
+    #remote_src: yes
+  #when: check_eclipse.stat.exists == false
 
 
 - name: "[TAR] - eclipse"
   unarchive:
     src: "{{ eclipse }}"
-    dest: /home/bilonjea/DEV/Tools/eclipse/
+    dest: /home/bilonjea/DEV/Tools/
     remote_src: yes
   when: check_eclipse.stat.exists == false

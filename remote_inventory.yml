@@ -1,0 +1,8 @@
+all:
+    children:
+      jfrog: 
+        hosts:
+          vps-309e5a74.vps.ovh.net:
+      sonar: 
+        hosts:
+          vps-ec7ac6f5.vps.ovh.net:
